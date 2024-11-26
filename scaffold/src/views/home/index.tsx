@@ -40,7 +40,7 @@ export const HomeView: FC = ({ }) => {
       <br></br>
       <br></br>
         <h4 className="md:w-full text-2x1 md:text-4xl text-center text-slate-300 my-2">
-          <p>Welcome to Kira's Voting Application</p>
+          <p>Welcome to Kiras Voting Application</p>
           <p className='text-slate-500 text-2x1 leading-relaxed'>Voting made fair.</p>
         </h4>
 
