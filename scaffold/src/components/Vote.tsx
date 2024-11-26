@@ -117,8 +117,8 @@ export const Vote: FC = () => {
               className="textarea textarea-bordered w-full max-w-xs m-2"
             ></textarea>
             <button
-              className="group w-60 m-2 btn animate-pulse bg-gradient-to-br from-indigo-500 to-fuchsia-500 
-                hover:from-white hover:to-purple-300 text-black"
+              className="group w-60 m-2 btn animate-pulse bg-gradient-to-br from-silver-500 to-gray-500 
+                hover:from-gray hover:to-silver-300 text-silver"
               onClick={addCandidate}
             >
               <div className="hidden group-disabled:block">Wallet not connected</div>
@@ -128,8 +128,8 @@ export const Vote: FC = () => {
       
           <div className="flex flex-row justify-center">
             <button
-              className="group w-60 m-2 btn animate-pulse bg-gradient-to-br from-indigo-500 to-fuchsia-500 
-                hover:from-white hover:to-purple-300 text-black"
+              className="group w-60 m-2 btn animate-pulse bg-gradient-to-br from-silver-500 to-gray-500 
+                hover:from-gray hover:to-silver-300 text-silver"
               onClick={getCandidates}
             >
               <div className="hidden group-disabled:block">Wallet not connected</div>
@@ -152,7 +152,7 @@ export const Vote: FC = () => {
                 <p className="text-center mb-2">{candidate.description.toString()}</p>
                 <p className="mb-2">Votes: {candidate.votes.toString()}</p>
                 <button
-                    className="w-full py-2 px-4 bg-indigo-500 text-white rounded hover:bg-indigo-600"
+                    className="w-full py-2 px-4 bg-gray-500 text-white rounded hover:bg-silver-600"
                     onClick={() => vote(candidate.pubkey)}
                 >
                     Vote
